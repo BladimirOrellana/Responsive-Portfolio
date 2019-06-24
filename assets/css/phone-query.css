@@ -66,6 +66,19 @@
 
         
       }
+       /*PORTAFOLIO PAGE*/
+       .proyects {
+        grid-column: 1/13;
+          grid-row: 2/11;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+         height: 2000px;
+          grid-gap: 15px;
+          padding: 20px;
+          text-align: center;
+          
+        
+        }
     
     }
   

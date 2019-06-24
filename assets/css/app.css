@@ -12,7 +12,7 @@ color: gray;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(14, 1fr); }
+  grid-template-rows: repeat(11, 1fr); }
 
 .nav {
   color: white;
@@ -147,4 +147,71 @@ label {
 .btn-tail {
   color: white;
   background: #4aaaa5; }
+  /*Portafolio*/
 
+.proyects {
+max-width: 100%;
+grid-column: 1/13;
+  grid-row: 2/11;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding: 20px;
+  text-align: center;
+  
+
+}
+
+.proyects::after {
+}
+
+.proyect {
+  text-transform: uppercase; 
+  border-radius: 10px;
+  position: relative;
+}
+  .proyect:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); }
+  .proyect:active {
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+    .title{
+      background-image: linear-gradient(to right, rgba(0, 221, 245, 0.5), rgba(0, 221, 245, 0.5));
+      display: block;
+      -webkit-background-clip: text;
+      color: transparent;
+      letter-spacing: 0.2rem;
+      font-weight: bold;
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -90%);
+      
+      
+    }
+
+    .proyect-1 {
+      background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)), 
+      url("https://media-public.canva.com/MADGvh8ZuBU/7/screen_2x.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .proyect-2 {
+      background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)), 
+      url("https://media-public.canva.com/MADU6wxYBVA/1/screen_2x.jpg"); }
+    .proyect-3 {
+      background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)), 
+      url("https://media-public.canva.com/MADWeDH4rPw/1/screen_2x.jpg"); }
+    .proyect-4 {
+      background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)),
+       url("https://media-public.canva.com/MAC78fvWCBc/1/screen_2x.jpg"); }
+    .proyect-5 {
+      background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)), 
+      url("https://media-public.canva.com/MACDdt9KWDo/1/screen_2x.jpg"); }
+      .proyect-6 {
+        background-image: linear-gradient(to right bottom, rgba(10, 11, 11, 0), rgba(235, 13, 183, 0)), 
+        url("https://images.unsplash.com/photo-1485811055483-1c09e64d4576?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); }
+  
