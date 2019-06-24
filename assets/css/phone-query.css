@@ -52,5 +52,20 @@
       border-radius: 100px; }
     .descriction {
       margin-top: 40px;
-      text-align: center; } }
+      text-align: center; } 
+      /*CONTACT PAGE*/
+    
+      .btn {
+ width: 80%;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        margin-bottom: 50px;
+        border-radius: 0.5rem;
+        outline: none;
+       transition: all .2s; 
+
+        
+      }
+    
+    }
   

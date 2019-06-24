@@ -1,6 +1,8 @@
 body {
-  background: gray;
-  background-image: url("/assets/img/email-pattern.png"); }
+ 
+  background-image: url("/assets/img/email-pattern.png"); 
+}
+
 a, a::after, a::before{
 text-decoration: none;
 color: gray;
@@ -92,4 +94,57 @@ color: gray;
   width: 100%; 
 }
 /*CONTACT PAGE*/
+.form{
+  grid-column: 1/13;
+  grid-row: 3/11;
+ 
+
+ 
+}
+.input{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #777777;
+}
+
+label {
+  width: 90%;
+  color: #4aaaa5;
+  margin: 0 auto;
+  display: block;
+
+  
+ }
+
+ .btn {
+ 
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  display: inline-block;
+  transition: all .2s; 
+  margin-left: 40px;
+}
+  
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+
+.btn:active {
+  border: none;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn-tail {
+  color: white;
+  background: #4aaaa5; }
 
